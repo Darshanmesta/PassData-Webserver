@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3> The current date is <%=Date %> </h3>
+
+     <ul>
+
+      <%  for(var i=0; i <NeJunk.length; i++){ %>
+        <li> <%= NeJunk[i] %> </li>
+      <% } %>
+
+    </ul>
+
+   <form  action="/" method="post">
+     <input type="text" name="text1" placeholder="Please enter the data here">
+     <button type="submit" name="button">Click Me</button>
+   </form>
+
+
+  </body>
+</html>
